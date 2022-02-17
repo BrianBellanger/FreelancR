@@ -1,0 +1,96 @@
+
+body {
+  background-color: #e0e0e0 !important;
+  color: #0A0F0D important;
+  animation: fadeInAnimation ease 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+      opacity: .5;
+  }
+  100% {
+      opacity: 1;
+   }
+}
+
+.bg-light {
+  background-color: #e0e0e0 !important;
+}
+
+.bg-primary {
+  background-color: #0e0b16 !important;
+}
+
+
+.text-light {
+  color: #dde1e7 !important;
+}
+
+.text-dark {
+  color: #0e0b16 !important;
+}
+
+.btn-accent {
+  background-color: #8e13be !important;
+}
+
+btn-accent2 {
+  background-color: #4717f6 !important;
+}
+
+.accent {
+  color: #8e13be !important;
+}
+
+a {
+  color: inherit; 
+}
+
+.glass1 {
+  background: rgba( 196, 32, 33, 0.85 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 13.5px );
+  -webkit-backdrop-filter: blur( 13.5px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.glass2 {
+  background: rgba( 27, 154, 170, 0.85 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 13.5px );
+  -webkit-backdrop-filter: blur( 13.5px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.glass3 {
+  background: rgba( 88, 125, 113, 0.85 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 13.5px );
+  -webkit-backdrop-filter: blur( 13.5px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.card-text {
+  color:white;
+  font-weight: bolder;
+}
+
+.card-title {
+  color:cornsilk;
+  text-align: center;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.dash-info{
+  font-size: 15px;
+}
+
+.bg-image {
+  background-image: url("/images/laptop-on-a-round-wooden-table-flat-lay-picjumbo-com.jpg");
+  background-color: rgba(0, 0, 0, 0.5);
+}
